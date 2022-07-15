@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.unistgt.ipvs.vs.ex2.TestRMICalc" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-12-06T14:44:25" hostname="DESKTOP-80A8TLF" time="6.123">
+  <properties/>
+  <testcase name="test1" classname="de.unistgt.ipvs.vs.ex2.TestRMICalc" time="3.07"/>
+  <testcase name="test2" classname="de.unistgt.ipvs.vs.ex2.TestRMICalc" time="3.053"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

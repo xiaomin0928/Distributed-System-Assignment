@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class de.unistgt.ipvs.vs.ex1.TestCalc</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class de.unistgt.ipvs.vs.ex1.TestCalc</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.unistgt.ipvs.vs.ex1.html">de.unistgt.ipvs.vs.ex1</a> &gt; TestCalc</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.086s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>a new session for client
+Client has connected
+Client get message from Server:&lt;08:RDY&gt;
+Server get message from Client:&lt;24:ADD 1 2 3 SUB 3 2 1&gt;
+Client get message from Server:&lt;07:OK&gt;
+Client get message from Server:&lt;11:OK ADD&gt;
+Client get message from Server:&lt;09:OK 1&gt;
+Client get message from Server:&lt;09:OK 2&gt;
+Client get message from Server:&lt;09:OK 3&gt;
+Client get message from Server:&lt;11:OK SUB&gt;
+Client get message from Server:&lt;09:OK 3&gt;
+Client get message from Server:&lt;09:OK 2&gt;
+Client get message from Server:&lt;09:OK 1&gt;
+Client get message from Server:&lt;08:FIN&gt;
+Server get message from Client:&lt;08:rEs&gt;
+Client get message from Server:&lt;07:OK&gt;
+Client get message from Server:&lt;13:OK RES 0&gt;
+Client get message from Server:&lt;08:FIN&gt;
+a new session for client
+Client has connected
+Client get message from Server:&lt;08:RDY&gt;
+Server get message from Client:&lt;50:Add -3 ASM -2 ABC -1 SUB -1 ASM10 -2 ABC09 -3&gt;
+Client get message from Server:&lt;07:OK&gt;
+Client get message from Server:&lt;11:OK Add&gt;
+Client get message from Server:&lt;10:OK -3&gt;
+Server get invalid message from Client:ASM
+Client get message from Server:&lt;12:ERR ASM&gt;
+Client get invalid message from Server:ASM
+Client get message from Server:&lt;10:OK -2&gt;
+Client get message from Server:&lt;12:ERR ABC&gt;
+Client get invalid message from Server:ABC
+Server get invalid message from Client:ABC
+Client get message from Server:&lt;10:OK -1&gt;
+Client get message from Server:&lt;11:OK SUB&gt;
+Client get message from Server:&lt;10:OK -1&gt;
+Client get message from Server:&lt;14:ERR ASM10&gt;
+Server get invalid message from Client:ASM10
+Client get message from Server:&lt;10:OK -2&gt;
+Server get invalid message from Client:ABC09
+Client get message from Server:&lt;14:ERR ABC09&gt;
+Client get message from Server:&lt;10:OK -3&gt;
+Client get message from Server:&lt;08:FIN&gt;
+Server get message from Client:&lt;08:rEs&gt;
+Client get message from Server:&lt;07:OK&gt;
+Client get message from Server:&lt;13:OK RES 0&gt;
+Client get message from Server:&lt;08:FIN&gt;
+a new session for client
+Client has connected
+Client get message from Server:&lt;08:RDY&gt;
+Server get message from Client:24 foo 42 &lt;57:  MUL  1   ASM  ADD ABC 10    5  SUB 100 ADD10   ADD&gt;
+Client get message from Server:&lt;07:OK&gt;
+Client get message from Server:&lt;11:OK MUL&gt;
+Client get message from Server:&lt;09:OK 1&gt;
+Client get message from Server:&lt;12:ERR ASM&gt;
+Client get invalid message from Server:ASM
+Server get invalid message from Client:ASM
+Client get message from Server:&lt;11:OK ADD&gt;
+Server get invalid message from Client:ABC
+Client get message from Server:&lt;12:ERR ABC&gt;
+Client get invalid message from Server:ABC
+Client get message from Server:&lt;10:OK 10&gt;
+Client get message from Server:&lt;09:OK 5&gt;
+Client get message from Server:&lt;11:OK SUB&gt;
+Client get message from Server:&lt;11:OK 100&gt;
+Server get invalid message from Client:ADD10
+Client get message from Server:&lt;14:ERR ADD10&gt;
+Client get message from Server:&lt;11:OK ADD&gt;
+Client get message from Server:&lt;08:FIN&gt;
+Server get message from Client:a faq 23 &lt;22:60 4 MUL -2 RES  &gt; bla 42 
+Client get message from Server:&lt;07:OK&gt;
+Client get message from Server:&lt;10:OK 60&gt;
+Client get message from Server:&lt;09:OK 4&gt;
+Client get message from Server:&lt;11:OK MUL&gt;
+Client get message from Server:&lt;10:OK -2&gt;
+Client get message from Server:&lt;14:OK RES 42&gt;
+Client get message from Server:&lt;08:FIN&gt;
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7.1</a> at 2020-12-6 22:44:32</p>
+</div>
+</div>
+</body>
+</html>

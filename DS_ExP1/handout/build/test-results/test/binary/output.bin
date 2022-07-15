@@ -1,0 +1,76 @@
+a new session for client
+Client has connected
+)Client get message from Server:<08:RDY>
+9Server get message from Client:<24:ADD 1 2 3 SUB 3 2 1>
+(Client get message from Server:<07:OK>
+,Client get message from Server:<11:OK ADD>
+*Client get message from Server:<09:OK 1>
+*Client get message from Server:<09:OK 2>
+*Client get message from Server:<09:OK 3>
+,Client get message from Server:<11:OK SUB>
+*Client get message from Server:<09:OK 3>
+*Client get message from Server:<09:OK 2>
+*Client get message from Server:<09:OK 1>
+)Client get message from Server:<08:FIN>
+)Server get message from Client:<08:rEs>
+(Client get message from Server:<07:OK>
+.Client get message from Server:<13:OK RES 0>
+)Client get message from Server:<08:FIN>
+a new session for client
+Client has connected
+)Client get message from Server:<08:RDY>
+SServer get message from Client:<50:Add -3 ASM -2 ABC -1 SUB -1 ASM10 -2 ABC09 -3>
+(Client get message from Server:<07:OK>
+,Client get message from Server:<11:OK Add>
++Client get message from Server:<10:OK -3>
+,Server get invalid message from Client:ASM
+-Client get message from Server:<12:ERR ASM>
+,Client get invalid message from Server:ASM
++Client get message from Server:<10:OK -2>
+-Client get message from Server:<12:ERR ABC>
+,Client get invalid message from Server:ABC
+,Server get invalid message from Client:ABC
++Client get message from Server:<10:OK -1>
+,Client get message from Server:<11:OK SUB>
++Client get message from Server:<10:OK -1>
+/Client get message from Server:<14:ERR ASM10>
+.Server get invalid message from Client:ASM10
++Client get message from Server:<10:OK -2>
+.Server get invalid message from Client:ABC09
+/Client get message from Server:<14:ERR ABC09>
++Client get message from Server:<10:OK -3>
+)Client get message from Server:<08:FIN>
+)Server get message from Client:<08:rEs>
+(Client get message from Server:<07:OK>
+.Client get message from Server:<13:OK RES 0>
+)Client get message from Server:<08:FIN>
+a new session for client
+Client has connected
+)Client get message from Server:<08:RDY>
+dServer get message from Client:24 foo 42 <57:  MUL  1   ASM  ADD ABC 10    5  SUB 100 ADD10   ADD>
+(Client get message from Server:<07:OK>
+,Client get message from Server:<11:OK MUL>
+*Client get message from Server:<09:OK 1>
+-Client get message from Server:<12:ERR ASM>
+,Client get invalid message from Server:ASM
+,Server get invalid message from Client:ASM
+,Client get message from Server:<11:OK ADD>
+,Server get invalid message from Client:ABC
+-Client get message from Server:<12:ERR ABC>
+,Client get invalid message from Server:ABC
++Client get message from Server:<10:OK 10>
+*Client get message from Server:<09:OK 5>
+,Client get message from Server:<11:OK SUB>
+,Client get message from Server:<11:OK 100>
+.Server get invalid message from Client:ADD10
+/Client get message from Server:<14:ERR ADD10>
+,Client get message from Server:<11:OK ADD>
+)Client get message from Server:<08:FIN>
+HServer get message from Client:a faq 23 <22:60 4 MUL -2 RES  > bla 42 
+(Client get message from Server:<07:OK>
++Client get message from Server:<10:OK 60>
+*Client get message from Server:<09:OK 4>
+,Client get message from Server:<11:OK MUL>
++Client get message from Server:<10:OK -2>
+/Client get message from Server:<14:OK RES 42>
+)Client get message from Server:<08:FIN>

@@ -1,0 +1,4 @@
+de/unistgt/ipvs/vs/ex1/TestCalc.java
+ de.unistgt.ipvs.vs.ex1.TestCalc
+de/unistgt/ipvs/vs/ex2/TestRMICalc.java
+ de.unistgt.ipvs.vs.ex2.TestRMICalc
