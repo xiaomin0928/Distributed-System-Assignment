@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.unistgt.ipvs.vs.ex4.distributed_debugging_test.DebugTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-24T17:37:54" hostname="DESKTOP-80A8TLF" time="0.243">
+  <properties/>
+  <testcase name="testPartb" classname="de.unistgt.ipvs.vs.ex4.distributed_debugging_test.DebugTest" time="0.117"/>
+  <testcase name="testPartbc" classname="de.unistgt.ipvs.vs.ex4.distributed_debugging_test.DebugTest" time="0.126"/>
+  <system-out><![CDATA[Check only part (b) from the question (4)
+process:0 , the local variable= 10
+process:1 , the local variable= 25
+Predicate0-----------------------------------
+Predicate1-----------------------------------
+Predicate2-----------------------------------
+Check part (b)  and part (c) from the question (4)
+process:1 , the local variable= 25
+process:0 , the local variable= 1
+process:2 , the local variable= 11
+Predicate0-----------------------------------
+Predicate1-----------------------------------
+Predicate2-----------------------------------
+Predicate3-----------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

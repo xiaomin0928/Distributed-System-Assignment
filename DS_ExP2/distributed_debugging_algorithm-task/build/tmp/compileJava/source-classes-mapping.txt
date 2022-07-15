@@ -1,0 +1,17 @@
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/Predicate.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.Predicate
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/Process1.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.Process1
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/Process3.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.Process3
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/VectorClock.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.VectorClock
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/Process2.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.Process2
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/Monitor.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.Monitor
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.Monitor$State
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/Message.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.Message
+de/unistgt/ipvs/vs/ex4/distributed_debugging_algorithm/AbstractProcess.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_algorithm.AbstractProcess

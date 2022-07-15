@@ -1,0 +1,14 @@
++Check only part (b) from the question (4)
+#process:0 , the local variable= 10
+#process:1 , the local variable= 25
+.Predicate0-----------------------------------
+.Predicate1-----------------------------------
+.Predicate2-----------------------------------
+4Check part (b)  and part (c) from the question (4)
+#process:1 , the local variable= 25
+"process:0 , the local variable= 1
+#process:2 , the local variable= 11
+.Predicate0-----------------------------------
+.Predicate1-----------------------------------
+.Predicate2-----------------------------------
+.Predicate3-----------------------------------

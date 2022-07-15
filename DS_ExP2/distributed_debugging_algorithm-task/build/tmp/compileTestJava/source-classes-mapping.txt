@@ -1,0 +1,2 @@
+de/unistgt/ipvs/vs/ex4/distributed_debugging_test/DebugTest.java
+ de.unistgt.ipvs.vs.ex4.distributed_debugging_test.DebugTest
