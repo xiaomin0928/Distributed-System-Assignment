@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.uni_stuttgart.ipvs.ids.test.TestCases" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-07T10:33:06" hostname="DESKTOP-80A8TLF" time="9.25">
+  <properties/>
+  <testcase name="test1" classname="de.uni_stuttgart.ipvs.ids.test.TestCases" time="0.069"/>
+  <testcase name="test2" classname="de.uni_stuttgart.ipvs.ids.test.TestCases" time="1.026"/>
+  <testcase name="test3" classname="de.uni_stuttgart.ipvs.ids.test.TestCases" time="8.152"/>
+  <system-out><![CDATA[listenPort11000
+listenPort11001
+listenPort11002
+listenPort11003
+listenPort11004
+listenPort11005
+listenPort11006
+listenPort11007
+listenPort11008
+listenPort11009
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

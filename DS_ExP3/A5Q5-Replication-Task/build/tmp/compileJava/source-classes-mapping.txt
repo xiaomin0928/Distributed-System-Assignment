@@ -1,0 +1,30 @@
+de/uni_stuttgart/ipvs/ids/communication/ValueResponseMessage.java
+ de.uni_stuttgart.ipvs.ids.communication.ValueResponseMessage
+de/uni_stuttgart/ipvs/ids/communication/ReadRequestMessage.java
+ de.uni_stuttgart.ipvs.ids.communication.ReadRequestMessage
+de/uni_stuttgart/ipvs/ids/replication/VersionedValue.java
+ de.uni_stuttgart.ipvs.ids.replication.VersionedValue
+de/uni_stuttgart/ipvs/ids/replication/MajorityConsensus.java
+ de.uni_stuttgart.ipvs.ids.replication.MajorityConsensus
+de/uni_stuttgart/ipvs/ids/communication/WriteRequestMessage.java
+ de.uni_stuttgart.ipvs.ids.communication.WriteRequestMessage
+de/uni_stuttgart/ipvs/ids/communication/Vote.java
+ de.uni_stuttgart.ipvs.ids.communication.Vote
+ de.uni_stuttgart.ipvs.ids.communication.Vote$State
+de/uni_stuttgart/ipvs/ids/replication/Replica.java
+ de.uni_stuttgart.ipvs.ids.replication.Replica
+ de.uni_stuttgart.ipvs.ids.replication.Replica$LockType
+de/uni_stuttgart/ipvs/ids/communication/NonBlockingReceiver.java
+ de.uni_stuttgart.ipvs.ids.communication.NonBlockingReceiver
+de/uni_stuttgart/ipvs/ids/communication/ReleaseWriteLock.java
+ de.uni_stuttgart.ipvs.ids.communication.ReleaseWriteLock
+de/uni_stuttgart/ipvs/ids/replication/QuorumNotReachedException.java
+ de.uni_stuttgart.ipvs.ids.replication.QuorumNotReachedException
+de/uni_stuttgart/ipvs/ids/communication/RequestReadVote.java
+ de.uni_stuttgart.ipvs.ids.communication.RequestReadVote
+de/uni_stuttgart/ipvs/ids/communication/MessageWithSource.java
+ de.uni_stuttgart.ipvs.ids.communication.MessageWithSource
+de/uni_stuttgart/ipvs/ids/communication/ReleaseReadLock.java
+ de.uni_stuttgart.ipvs.ids.communication.ReleaseReadLock
+de/uni_stuttgart/ipvs/ids/communication/RequestWriteVote.java
+ de.uni_stuttgart.ipvs.ids.communication.RequestWriteVote
